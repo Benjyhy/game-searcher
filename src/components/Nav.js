@@ -46,6 +46,9 @@ export default Nav;
 const StyledNav = styled(motion.nav)`
     padding: 3rem 5rem;
     text-align: center;
+    @media screen and (max-width: 700px){
+        padding: 1rem 2rem;
+    }
     input{
         width: 30%;
         font-size: 1.3rem;
@@ -54,6 +57,9 @@ const StyledNav = styled(motion.nav)`
         margin-top: 1rem;
         box-shadow: 0px 0px 30px rgba(0, 0, 0, .1);
         outline: none;
+        @media screen and (max-width: 700px){
+            width: 65%;
+        }
     }
     button{
         font-size: 1.5rem;

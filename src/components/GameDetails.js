@@ -147,6 +147,10 @@ const Stats = styled(motion.div)`
         height: 2rem;
         display: inline;
     }
+    @media screen and (max-width: 700px){
+        flex-direction: column;
+        text-align: center;
+    }
 `
 
 const Infos = styled(motion.div)`

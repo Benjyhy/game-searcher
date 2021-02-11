@@ -28,6 +28,10 @@ const GlobalStyle = createGlobalStyle`
         font-size: 3rem;
         font-family: 'Abril Fatface', cursive;
         font-weight: lighter;
+        @media screen and (max-width: 700px){
+            font-size: 2rem;
+            text-align: center;
+        }
     }
     h3{
         font-size: 1.3rem;
