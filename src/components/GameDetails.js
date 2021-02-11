@@ -136,6 +136,9 @@ const Details = styled(motion.div)`
     img{
         width: 100%;
     }
+    @media screen and (max-width: 700px){
+        padding: 2rem 1rem;
+    }
 `
 
 const Stats = styled(motion.div)`
@@ -162,6 +165,14 @@ const Platforms = styled(motion.div)`
     justify-content: space-evenly;
     img{
         margin-left: 3rem;
+        @media screen and (max-width: 700px){
+            margin-left: 1.2rem;
+        }
+        &:first-of-type{
+            @media screen and (max-width: 700px){
+                margin-left: 0;
+            }    
+        }
     }
 `
 
@@ -170,7 +181,13 @@ const Media = styled(motion.div)`
     img{
         width: 100%;
     }
+    @media screen and (max-width: 800px){
+        margin-top: 2rem;
+    } 
 `
 const Description = styled(motion.div)`
     margin: 5rem 0;
+    @media screen and (max-width: 800px){
+        margin: 2rem 0;
+    } 
 `
