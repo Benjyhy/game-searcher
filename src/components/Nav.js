@@ -59,6 +59,9 @@ const StyledNav = styled(motion.nav)`
         outline: none;
         @media screen and (max-width: 700px){
             width: 65%;
+            border-bottom: 1px solid #9d9d9d;
+            box-shadow: none;
+            margin: 1rem;
         }
     }
     button{
