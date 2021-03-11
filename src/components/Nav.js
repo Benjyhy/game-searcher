@@ -63,6 +63,7 @@ const StyledNav = styled(motion.nav)`
             border-bottom: 1px solid #9d9d9d;
             box-shadow: none;
             margin: 1rem;
+            border-radius: 0px;
         }
     }
     button{
